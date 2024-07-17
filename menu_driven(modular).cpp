@@ -173,7 +173,7 @@ void choice_3() {
 int letter_counter(string name) {
 	int counter = 0;
 	for (char letter : name) {
-		if (letter == '\t') {
+		if (letter == ' ') {
 			counter++;
 		}
 	}
